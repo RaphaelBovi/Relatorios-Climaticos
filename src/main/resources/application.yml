@@ -9,7 +9,7 @@ spring:
       connection-timeout: 30000
     url: "jdbc:postgresql://localhost:2222/postgres"
     username: postgres
-    password: admin
+    password: postgres
     type: com.zaxxer.hikari.HikariDataSource
   jpa:
     properties:
